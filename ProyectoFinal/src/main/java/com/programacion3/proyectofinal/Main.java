@@ -30,7 +30,7 @@ public class Main extends Application {
 		fxmlLoader.setControllerFactory(springContext::getBean);
 		Parent root = fxmlLoader.load();
 		Scene scene = new Scene(root);
-		stage.setTitle("Mi Aplicación JavaFX");
+		stage.setTitle("Marketplace javaFX");
 		stage.setScene(scene);
 		stage.show();
 	}

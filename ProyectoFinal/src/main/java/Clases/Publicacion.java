@@ -9,7 +9,7 @@ public class Publicacion {
     private String fecha;
     private Vendedor autor;
     private List<Comentario> comentarios;
-    private List<MeGusta> meGustas;
+    private List<MeGusta> meGusta;
 
     public void agregarComentarios(Comentario comentario) {}
     public void agregarMegusta(MeGusta meGusta) {}
@@ -20,7 +20,7 @@ public class Publicacion {
         this.fecha = fecha;
         this.autor = autor;
         this.comentarios = comentarios;
-        this.meGustas = meGustas;
+        this.meGusta = meGustas;
     }
 
     public String getId() {
@@ -63,11 +63,11 @@ public class Publicacion {
         this.comentarios = comentarios;
     }
 
-    public List<MeGusta> getMeGustas() {
-        return meGustas;
+    public List<MeGusta> getMeGusta() {
+        return meGusta;
     }
 
-    public void setMeGustas(List<MeGusta> meGustas) {
-        this.meGustas = meGustas;
+    public void setMeGusta(List<MeGusta> meGusta) {
+        this.meGusta = meGusta;
     }
 }
